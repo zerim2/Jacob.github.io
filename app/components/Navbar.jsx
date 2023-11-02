@@ -15,7 +15,7 @@ const Navbar = () => {
 		<div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
 
 		<div>
-			<img src='/assets/jacob.png' alt="Insta" style={{width: '50px'}} />
+			<img src='/assets/jacob.PNG' alt="Insta" style={{width: '50px'}} />
 		</div>
 
 		<div className="hidden md:flex">
