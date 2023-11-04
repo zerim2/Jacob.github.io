@@ -20,7 +20,7 @@ const Navbar = () => {
 
 		<div className="hidden md:flex">
 
-			<ul className="flex md:flex">
+			<ul className="flex md:flex items-center">
 				<li>
 				<Link to="home" smooth={true} duration={500}>Home</Link>
 				</li>
