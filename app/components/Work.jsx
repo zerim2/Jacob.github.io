@@ -19,7 +19,7 @@ const Work = () => {
 					 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 						
 						{/* Hover Effects*/}
-						<div className='opacity-0 group-hover:opacity-100'>
+						<div className='opacity-0 group-hover:opacity-100 transition-all'>
 							<span className='text-2xl font-bold text-white tracking-wider'>
 							Questionnaire Form
 							</span>
