@@ -21,7 +21,7 @@ const Work = () => {
 						{/* Hover Effects*/}
 						<div className='opacity-0 group-hover:opacity-100'>
 							<span className='text-2xl font-bold text-white tracking-wider'>
-							Quiz CSS Project
+							Questionnaire Form
 							</span>
 
 							<div className='pt-8 text-center'>
@@ -45,7 +45,7 @@ const Work = () => {
 						{/* Hover Effects*/}
 						<div className='opacity-0 group-hover:opacity-100'>
 							<span className='text-2xl font-bold text-white tracking-wider'>
-							React JS Application
+							E-Commerce
 							</span>
 
 							<div className='pt-8 text-center'>
@@ -69,7 +69,7 @@ const Work = () => {
 						{/* Hover Effects*/}
 						<div className='opacity-0 group-hover:opacity-100'>
 							<span className='text-2xl font-bold text-white tracking-wider'>
-							React JS Application
+							Inventory Management
 							</span>
 
 							<div className='pt-8 text-center'>
@@ -93,7 +93,7 @@ const Work = () => {
 						{/* Hover Effects*/}
 						<div className='opacity-0 group-hover:opacity-100'>
 							<span className='text-2xl font-bold text-white tracking-wider'>
-							React JS Application
+							Scheduling App
 							</span>
 
 							<div className='pt-8 text-center'>
@@ -117,7 +117,7 @@ const Work = () => {
 						{/* Hover Effects*/}
 						<div className='opacity-0 group-hover:opacity-100'>
 							<span className='text-2xl font-bold text-white tracking-wider'>
-							React JS Application
+							Messenger App
 							</span>
 
 							<div className='pt-8 text-center'>
@@ -141,7 +141,7 @@ const Work = () => {
 						{/* Hover Effects*/}
 						<div className='opacity-0 group-hover:opacity-100'>
 							<span className='text-2xl font-bold text-white tracking-wider'>
-							React JS Application
+							Blog
 							</span>
 
 							<div className='pt-8 text-center'>
