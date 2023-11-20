@@ -15,7 +15,7 @@ const Navbar = () => {
 		<div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
 
 		<div>
-			<img src='/assets/jacob.png' alt="Insta" style={{width: '50px'}} />
+			<img src='/assets/jacob.png' alt="Insta" style={{width: '130px'}} />
 		</div>
 
 		<div className="hidden md:flex">
@@ -69,7 +69,7 @@ const Navbar = () => {
 
 				<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
 				<a className="flex justify-between items-center w-full text-gray-300"
-				 href="/">
+				 href="https://github.com/zerim2">
 				
 				Github <FaGithub size={30} />
 				</a>

@@ -5,8 +5,8 @@ const About = () => {
 		<div name='about' className='w-full h-screen bg-[#0a192f] text-gray-300'>
 			<div className='flex flex-col justify-center items-center w-full h-full'>
 				<div className='max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8'>
-					<div className='sm:text-right pb-8 pl-4'> 
-						<p className='text-4xl font-bold inline border-b-4 border-pink-600'>
+					<div className='sm:text-right pb-8 pl-4'>
+						<p className='text-4xl font-bold inline border-b-4 border-pink-600 px-10'>
 						About
 						</p>
 					</div>
@@ -16,13 +16,22 @@ const About = () => {
 
 					</div>
 					<div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-						<div className='sm:text-right text-4xl font-bold'>
-							<p> Hi im jacob, nice to meet you, please take a look around at my website.</p>
+						<div className='sm:text-right text-4xl font-bold '>
+							<p className="p-14"> Hi, my name is Jacob!</p>
 						</div>
 						<div>
-							<p> I am passionate about creating excellent software that improves the lives for people around me.
-							I specialize in creating software for clients ranging from individuals and small-businesses all the way
-							to large corporations. Lorem ipsum lorem ipsem Lorem ipsum lorem ipsem Lorem ipsum lorem ipsem
+							<p className="mb-4"> I am a Full-Stack Jr. Developer based in Sault Ste. Marie, ON. I worked as a Research Analyst for 4 years.
+								There I applied skills such as Data mining,
+								Data wrangling and Modelling. In my spare time, I enjoy hiking and playing music, I have always had a strong passion for jazz and it inspires
+								while I work.
+
+							</p>
+
+							<p>
+								Initially, I started dedicating more time learning coding and Web design.
+								By applying those skills I realized that this something I am passionate about.
+								I am excited to be able to pursue a career I know I love.
+
 							</p>
 						</div> 
 					</div>
