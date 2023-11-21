@@ -97,11 +97,11 @@ const Work = () => {
 							</span>
 
 							<div className='pt-8 text-center'>
-								<a href="flightbooker-app.vercel.app">
+								<a href="https://flightbooker-app.vercel.app">
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
 
 								</a>
-								<a href="flightbooker-app.vercel.app">
+								<a href="https://flightbooker-app.vercel.app">
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
 
 								</a>
