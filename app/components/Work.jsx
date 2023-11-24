@@ -141,17 +141,17 @@ const Work = () => {
 						{/* Hover Effects*/}
 						<div className='opacity-0 group-hover:opacity-100 transition-all duration-700'>
 							<span className='text-2xl font-bold text-white tracking-wider'>
-							        Software Blog
+							        Tech Blog Front-end
 							</span>
 
 							<div className='pt-8 text-center'>
-								<a href="/"> {/* Link */}
+								<a href="https://blog-server-h9b2.vercel.app"> {/* Link */}
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
 							
 					
 
 								</a>
-								<a href="/">
+								<a href="https://blog-server-h9b2.vercel.app">
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
 
 								</a>
