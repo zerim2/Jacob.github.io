@@ -18,7 +18,7 @@ const Work = () => {
 					{/* Grid Item */}
 					<div
 					 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-						<img className='w-[312px] h-[250px] absolute flex opacity-80' src={"assets/QuizImg.png"} alt="s" />
+						<img className='w-[312px] h-[250px] absolute flex opacity-80' src={"assets/QuizImgs.png"} alt="s" />
 						{/* Hover Effects*/}
 						<div className='w-[312px] h-[250px] opacity-0 group-hover:opacity-100 transition-all duration-700 relative group-hover:bg-blue-700 group-hover:bg-opacity-50'>
 							<span className='text-2xl font-bold justify-center flex items-center my-10 text-white tracking-wider'>
@@ -66,7 +66,7 @@ const Work = () => {
 					<div 
 
 					 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-						<img className='w-[312px] h-[250px] absolute flex opacity-80' src={"assets/bookstoreImg.png"} alt="s" />
+						<img className='w-[312px] h-[250px] absolute flex opacity-80' src={"assets/bookstoreImgs.png"} alt="s" />
 						{/* Hover Effects*/}
 						<div className='w-[312px] h-[250px] opacity-0 group-hover:opacity-100  transition-all duration-700 relative group-hover:bg-blue-700 group-hover:bg-opacity-50  '>
 							<span className='text-2xl font-bold justify-center flex items-center my-10 text-white tracking-wider'>
@@ -90,7 +90,7 @@ const Work = () => {
 					<div 
 
 					 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-						<img className='w-[312px] h-[250px] absolute flex opacity-80' src={"assets/TravelImg.png"} alt="s" />
+						<img className='w-[312px] h-[250px] absolute flex opacity-80' src={"assets/TravelImgs.png"} alt="s" />
 						{/* Hover Effects*/}
 						<div className='w-[312px] h-[250px] opacity-0 group-hover:opacity-100 transition-all duration-700 relative group-hover:bg-blue-700 group-hover:bg-opacity-50'>
 							<span className='text-2xl font-bold justify-center flex items-center my-10 text-white tracking-wider'>
@@ -114,7 +114,7 @@ const Work = () => {
 					<div 
 
 					 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-						<img className='w-[312px] h-[250px] absolute flex opacity-80' src={"assets/messengerImg.png"} alt="s" />
+						<img className='w-[312px] h-[250px] absolute flex opacity-80' src={"assets/messengerImgs.png"} alt="s" />
 						{/* Hover Effects*/}
 						<div className='w-[312px] h-[250px] opacity-0 group-hover:opacity-100  transition-all duration-700 relative group-hover:bg-blue-700 group-hover:bg-opacity-50  '>
 							<span className='text-2xl font-bold justify-center flex items-center my-10 text-white tracking-wider'>
@@ -136,7 +136,7 @@ const Work = () => {
 					</div>
 
 					<div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
-						<img className='w-[312px] h-[250px] absolute flex opacity-80' src={"assets/blogImg.png"} alt="s" />
+						<img className='w-[312px] h-[250px] absolute flex opacity-80' src={"assets/blogImgs.png"} alt="s" />
 
 						{/* Hover Effects*/}
 						<div className='w-[312px] h-[250px] items-center justifycenter flex-auto bg-auto opacity-0 group-hover:opacity-100  transition-all duration-700 relative group-hover:bg-blue-700 group-hover:bg-opacity-50  '>
