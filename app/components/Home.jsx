@@ -7,7 +7,7 @@ const Home = () => {
 		const handleClick = () => setNav(!nav);
 
 	return (
-		<div name='home' className='w-full h-screen flex bg-[#0a192f]'>
+		<div name='home' className='w-full h-[950px] flex bg-[#0a192f]'>
 
 			{/*Container */}
 			<div className="max-w[1000px] mx-auto px-8 flex flex-col justify-center h-full">
@@ -21,7 +21,7 @@ const Home = () => {
 				ive come and where im going. </p>
 				<div>	
 					
-					<Link onClick={handleClick} to="work" smooth={true} duration={500} className=" w-[200px] text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">View Works 
+					<Link onClick={handleClick} to="work" smooth={true} duration={500} className=" w-[200px] text-white group border-2 px-6 py-3 flex items-center hover:bg-pink-600 hover:border-pink-600">View Works
 					<span className="group-hover:rotate-90 duration-300">
 					<HiArrowNarrowRight className="ml-3"/>
 					</span>
