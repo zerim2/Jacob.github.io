@@ -1,6 +1,8 @@
 import React from 'react'
-import WorkImg from '../assets/workImg.jpeg'
-import realEstate from '../assets/realestate.jpg'
+
+
+
+
 
 const Work = () => {
 	
@@ -14,13 +16,12 @@ const Work = () => {
 				{/* Container */}
 				<div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 					{/* Grid Item */}
-					<div 
-					style={{backgroundImage: `url($(/assets/workImg.jpeg)`}}
+					<div
 					 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-						
+						<img className='w-[312px] h-[250px] absolute flex opacity-80' src={"assets/QuizImg.png"} alt="s" />
 						{/* Hover Effects*/}
-						<div className='opacity-0 group-hover:opacity-100 transition-all duration-700'>
-							<span className='text-2xl font-bold text-white tracking-wider'>
+						<div className='w-[312px] h-[250px] opacity-0 group-hover:opacity-100 transition-all duration-700 relative group-hover:bg-blue-700 group-hover:bg-opacity-50'>
+							<span className='text-2xl font-bold justify-center flex items-center my-10 text-white tracking-wider'>
 							Questionnaire Form
 							</span>
 
@@ -39,12 +40,12 @@ const Work = () => {
 					</div>
 
 					<div 
-					style={{backgroundImage: `url($(realEstate)`}}
-					 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-						
+
+					 className= 'shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
+						<img className='w-[312px] h-[250px] absolute flex opacity-80' src={"assets/EcommerceImg.png"} alt="s" />
 						{/* Hover Effects*/}
-						<div className='opacity-0 group-hover:opacity-100 transition-all duration-700'>
-							<span className='text-2xl font-bold text-white tracking-wider'>
+						<div className='w-[312px] h-[250px] opacity-0 group-hover:opacity-100 transition-all duration-700 relative group-hover:bg-blue-700 group-hover:bg-opacity-50'>
+							<span className='text-2xl font-bold justify-center flex items-center my-10 text-white tracking-wider'>
 							E-Commerce
 							</span>
 
@@ -63,13 +64,13 @@ const Work = () => {
 					</div>
 						{/* Grid Item */}
 					<div 
-					style={{backgroundImage: `url($(WorkImg)`}}
+
 					 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-						
+						<img className='w-[312px] h-[250px] absolute flex opacity-80' src={"assets/bookstoreImg.png"} alt="s" />
 						{/* Hover Effects*/}
-						<div className='opacity-0 group-hover:opacity-100 transition-all duration-700'>
-							<span className='text-2xl font-bold text-white tracking-wider'>
-							Inventory Management
+						<div className='w-[312px] h-[250px] opacity-0 group-hover:opacity-100  transition-all duration-700 relative group-hover:bg-blue-700 group-hover:bg-opacity-50  '>
+							<span className='text-2xl font-bold justify-center flex items-center my-10 text-white tracking-wider'>
+							MERN Bookstore App
 							</span>
 
 							<div className='pt-8 text-center'>
@@ -87,12 +88,12 @@ const Work = () => {
 					</div>
 
 					<div 
-					style={{backgroundImage: `url($(realEstate)`}}
-					 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
+					 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+						<img className='w-[312px] h-[250px] absolute flex opacity-80' src={"assets/TravelImg.png"} alt="s" />
 						{/* Hover Effects*/}
-						<div className='opacity-0 group-hover:opacity-100 transition-all duration-700'>
-							<span className='text-2xl font-bold text-white tracking-wider'>
+						<div className='w-[312px] h-[250px] opacity-0 group-hover:opacity-100 transition-all duration-700 relative group-hover:bg-blue-700 group-hover:bg-opacity-50'>
+							<span className='text-2xl font-bold justify-center flex items-center my-10 text-white tracking-wider'>
 							Flight Travel Website
 							</span>
 
@@ -111,12 +112,12 @@ const Work = () => {
 					</div>
 						{/* Grid Item */}
 					<div 
-					style={{backgroundImage: `url($(WorkImg)`}}
+
 					 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-						
+						<img className='w-[312px] h-[250px] absolute flex opacity-80' src={"assets/messengerImg.png"} alt="s" />
 						{/* Hover Effects*/}
-						<div className='opacity-0 group-hover:opacity-100 transition-all duration-700'>
-							<span className='text-2xl font-bold text-white tracking-wider'>
+						<div className='w-[312px] h-[250px] opacity-0 group-hover:opacity-100  transition-all duration-700 relative group-hover:bg-blue-700 group-hover:bg-opacity-50  '>
+							<span className='text-2xl font-bold justify-center flex items-center my-10 text-white tracking-wider'>
 							Messenger App
 							</span>
 
@@ -134,13 +135,12 @@ const Work = () => {
 
 					</div>
 
-					<div 
-					style={{backgroundImage: `url($(realEstate)`}}
-					 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-						
+					<div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
+						<img className='w-[312px] h-[250px] absolute flex opacity-80' src={"assets/blogImg.png"} alt="s" />
+
 						{/* Hover Effects*/}
-						<div className='opacity-0 group-hover:opacity-100 transition-all duration-700'>
-							<span className='text-2xl font-bold text-white tracking-wider'>
+						<div className='w-[312px] h-[250px] items-center justifycenter flex-auto bg-auto opacity-0 group-hover:opacity-100  transition-all duration-700 relative group-hover:bg-blue-700 group-hover:bg-opacity-50  '>
+							<span className='text-2xl font-bold justify-center flex items-center my-10 text-white tracking-wider '>
 							        Tech Blog Front-end
 							</span>
 

@@ -5,16 +5,22 @@ import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import React, {useState} from "react";
 import {Link} from 'react-scroll';
+import EcommerceImg from "@/public/assets/EcommerceImg.PNG";
+import {CopyToClipboard} from 'react-copy-to-clipboard';
+import {ToastContainer, toast, Slide} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Navbar = () => {
 	const [nav, setNav] = useState(false);
+
 	const handleClick = () => setNav(!nav);
-		
+	const notify = () => toast.success("Copied to Clipboard");
+
 	return (
 
 		<div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
 
-		<div>
+		<div >
 			<img src='/assets/jacob.png' alt="Insta" style={{width: '130px'}} />
 		</div>
 
@@ -75,11 +81,16 @@ const Navbar = () => {
 				</a>
 				</li>
 
-				<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
-				<a className="flex justify-between items-center w-full text-gray-300"
-				 href="/">
-				
-				Email <HiOutlineMail size={30} />
+				<li className="w-[240px] h-[60px] flex justify-between items-center ml-[-180px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
+				<a onClick={notify} className="flex items-center w-full text-gray-300 text-sm"
+				 >
+					<ToastContainer theme={"colored"} autoClose={1500} position="bottom-center" className="font-semibold" transition={Slide} />
+					<CopyToClipboard text={"jacob@pattersons.net"} onClick={notify}>
+						<span>jacob@pattersons.net</span>
+
+					</CopyToClipboard>
+
+					 &nbsp; &nbsp; &nbsp; &nbsp; <HiOutlineMail size={30} className={""} />
 				</a>
 				</li>
 
