@@ -136,7 +136,7 @@ const Work = () => {
 					</div>
 
 					<div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
-						<img className='w-[312px] h-[250px] absolute flex opacity-80' src={"assets/blogImgs.png"} alt="s" />
+						<img className='w-[312px] h-[250px] absolute flex opacity-80' src={"assets/messengerImgs.png"} alt="s" />
 
 						{/* Hover Effects*/}
 						<div className='w-[312px] h-[250px] items-center justifycenter flex-auto bg-auto opacity-0 group-hover:opacity-100  transition-all duration-700 relative group-hover:bg-blue-700 group-hover:bg-opacity-50  '>
