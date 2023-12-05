@@ -89,7 +89,7 @@ const Navbar = () => {
 
 					</CopyToClipboard>
 
-					 &nbsp; &nbsp; &nbsp; &nbsp; <HiOutlineMail size={30} className={""} />
+					 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <HiOutlineMail size={30} className={""} />
 				</a>
 				</li>
 
