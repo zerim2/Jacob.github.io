@@ -91,7 +91,7 @@ const Navbar = () => {
 
 				<li className="w-[60px] h-[60px] flex justify-between items-center bg-[#565f69] rounded-full mx-2 hover:opacity-70 hover:scale-110">
 					<a className="flex justify-between items-center w-full text-gray-300"
-					   href="/">
+					   href="https://app.enhancv.com/share/dc61adf8/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic">
 
 						<BsFillPersonLinesFill size={30} />
 					</a>
