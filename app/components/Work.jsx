@@ -18,19 +18,19 @@ const Work = () => {
 					{/* Grid Item */}
 					<div
 					 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-						<img className='w-[312px] h-[250px] absolute flex opacity-80' src={"assets/QuizImgs.png"} alt="s" />
+						<img className='w-[312px] h-[250px] absolute flex opacity-80' src={"assets/projectboard.png"} alt="s" />
 						{/* Hover Effects*/}
 						<div className='w-[312px] h-[250px] opacity-0 group-hover:opacity-100 transition-all duration-700 relative group-hover:bg-blue-700 group-hover:bg-opacity-50'>
 							<span className='text-2xl font-bold justify-center flex items-center my-10 text-white tracking-wider'>
-							Questionnaire Form
+							Drawing Board
 							</span>
 
 							<div className='pt-8 text-center'>
-								<a href="https://quiz-app-orpin-five.vercel.app">
+								<a href="https://project-board-app.vercel.app">
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
 
 								</a>
-								<a href="/">
+								<a href="https://project-board-app.vercel.app">
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
 
 								</a>
