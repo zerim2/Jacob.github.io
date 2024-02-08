@@ -70,7 +70,7 @@ const Work = () => {
 						{/* Hover Effects*/}
 						<div className='w-[312px] h-[250px] opacity-0 group-hover:opacity-100  transition-all duration-700 relative group-hover:bg-blue-700 group-hover:bg-opacity-50  '>
 							<span className='text-2xl font-bold justify-center flex items-center my-10 text-white tracking-wider'>
-							MERN Bookstore App
+							Bookstore App
 							</span>
 							<div className='pt-8 text-center'>
 								<a href="https://book-client-nu.vercel.app">
